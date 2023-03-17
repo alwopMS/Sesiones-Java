@@ -1,0 +1,1 @@
+Cree un programa en el que el usuario tenga 3 intentos para adivinar un número entre 1 y 100
