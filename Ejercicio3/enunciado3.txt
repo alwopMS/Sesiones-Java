@@ -1,0 +1,13 @@
+EJERCICIO 3:
+Nos contrataron de la superintendencia de seguros para desarrollar un programa que informe lo siguiente
+de sus empleados:
+- Nombre
+- Apellido
+- Localidad
+- Posición
+- Sueldo
+E informar estos campos en un txt de salida que tenga el siguiente formato (el nombre del txt): "info_empleados_fechaHoy"
+CONSIDERACIONES:
+- Generar la creación del archivo con el uso de interfaces
+- Generar esta información para al menos 3 empleados
+- Generar herencia entre la clase Empleado y la clase Persona, es decir, que Empleado herede atributos de Persona

@@ -1,0 +1,3 @@
+Empleado: Pablo Lopez Albacete Programador 1300€
+Empleado: Guzman Rodriguez Santander Físico 1600€
+Empleado: Luis Sánchez León Programador Senior 1900€
