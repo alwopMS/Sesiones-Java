@@ -1,0 +1,6 @@
+Ejercicio 6: 
+Generar un programa que declare las siguientes colecciones:
+- Set
+- List
+- Map
+Con 10 elementos cada una.
