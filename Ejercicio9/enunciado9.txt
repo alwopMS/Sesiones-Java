@@ -1,0 +1,2 @@
+EJERCICIO 9:
+Leer el siguiente TXT y almacenar la información que esta dentro del mismo removiendo los valores duplicados. Luego, mostrarlos por consola.
