@@ -47,6 +47,7 @@ public class Main {
 			
 			usuarios.put(user, id);
 		}
+		sc.close();
 		
 	}
 
