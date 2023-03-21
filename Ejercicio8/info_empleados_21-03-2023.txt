@@ -1,0 +1,5 @@
+Empleado: Juan Topillo Lois DNI: 1234238R Nacimiento: 1989-05-12 Edad: 33 Ingreso: 2021-03-02 Sueldo: 1400€ Contable Antiguedad: 2
+Empleado: Maria Sanchez Valencia DNI: 2374712E Nacimiento: 1990-05-09 Edad: 32 Ingreso: 2020-10-01 Sueldo: 1450€ Contable Antiguedad: 2
+Empleado: Juan Topillo Lois DNI: 1234238R Nacimiento: 1989-05-12 Edad: 33 Ingreso: 2021-03-02 Sueldo: 1400€ Contable Antiguedad: 2
+Empleado: Luis Cotillo Madrid DNI: 2341761T Nacimiento: 1979-01-04 Edad: 44 Ingreso: 2002-05-04 Sueldo: 1500€ Psicologo Antiguedad: 20
+Empleado: Laura Alvares Barcelona DNI: 1256678F Nacimiento: 1979-05-06 Edad: 43 Ingreso: 2010-03-02 Sueldo: 1700€ Programador Antiguedad: 13

@@ -1,0 +1,24 @@
+Ejercicio 8: 
+Nos contrataron del Ministerio de Empleo para poder solucionarles un problema que tienen con su información. Manejan la información de los empleados
+a traves de archivos en Excel y por este motivo necesitan que desarrollemos un sistema con una solución integral.
+El mismo debe poder almacenar la siguiente información de los empleados:
+- Nombre
+- Apellido
+- DNI
+- Localidad de nacimiento
+- Fecha de Nacimiento
+- Fecha de Ingreso 
+- EDAD
+- Salario 
+- Nombre de posición
+- Antiguedad laboral
+ESTRUCTURA DEL PROGRAMA:
+- Debe contar, como minimo,con la clase Persona y Empleado
+- Debe implementar una interface que calcule la Antiguedad Laboral (Fecha de Ingreso - Fecha actual)
+- Debe implementar una interface que calcule la Edad (Fecha de Nacimiento - Fecha Actual)
+- Debe implementar al menos una Colección. 
+- El programa debe tener 1 empleado repetido
+- Se debe informar todo a traves de un txt de salida con el siguiente formato "info_salarial_plantilla_fechaDeHoy"
+- En el TXT no puede haber registros duplicados. 
+CONSIDERACIONES:
+- Hacerlo al menos para 4 empleados. 

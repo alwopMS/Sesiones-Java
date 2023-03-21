@@ -1,0 +1,6 @@
+Ejercicio 7: 
+Generar un programa que tome la siguiente información por consola, y la asigne a la colección correspondiente.
+- Para información de lista de supermercados, asignarla a una colección de tipo List
+- Para información de Documento de Identidad Nacional de tipo Set
+- Para información de Nombre_Usuario y ID_USUARIO utilizar el Map
+Se debe hacer para al menos 3 elementos de cada uno, es decir, se debe pedir 3 de cada uno por consola, ni mas ni menos.
