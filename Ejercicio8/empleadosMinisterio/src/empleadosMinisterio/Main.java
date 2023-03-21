@@ -15,7 +15,7 @@ public class Main implements FicherosInterface{
 		Empleado emp1 = new Empleado("Juan", "Topillo", "Lois", "1234238R", LocalDate.of(1989, 5, 12), LocalDate.of(2021, 3, 2), "Contable", 1400);
 		Empleado emp2 = new Empleado("Luis", "Cotillo", "Madrid", "2341761T", LocalDate.of(1979, 1, 4), LocalDate.of(2002, 5, 4), "Psicologo", 1500);
 		Empleado emp3 = new Empleado("Laura", "Alvares", "Barcelona", "1256678F", LocalDate.of(1979, 5, 6), LocalDate.of(2010, 3, 2), "Programador", 1700);		
-		Empleado emp4 = new Empleado("Juan", "Topillo", "Lois", "1234238R", LocalDate.of(1989, 5, 12), LocalDate.of(2021, 3, 2), "Contable", 1400);
+		Empleado emp4 = emp1;
 		Empleado emp5 = new Empleado("Maria", "Sanchez", "Valencia", "2374712E", LocalDate.of(1990, 5, 9), LocalDate.of(2020, 10, 1), "Contable", 1450);
 		
 		Set<Empleado> empleados = new HashSet<>();
