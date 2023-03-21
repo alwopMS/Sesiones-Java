@@ -1,0 +1,22 @@
+EJERCICIO 5:
+Generar un programa en Java que le pregunte al usuario como se siente el día de hoy, las opciones que debe tener son las 
+siguientes:
+1. Enojado
+2. Triste
+3. Feliz
+4. Preocupado
+5. Aburrido
+6. Somnoliento
+Si el usuario se siente Enojado le recomendamos que haga yoga
+Si el usuario se siente triste le recomendamos que vaya a terapia o que se tome unas birritas
+Si el usuario se siente feliz le recomendamos que siga así
+Si el usuario esta preocupado: completar por el desarrollador
+Si el usuario esta aburrido le contamos un chiste
+Si el usuario esta somnoliento le recomendamos que se tome un cafe. 
+ESTRUCTURA DEL PROGRAMA
+- El programa debe informar la fecha y hora del día de hoy, mas un mensaje de bienvenida
+- El programa debe preguntarle al usuario como se llama
+- El programa debe tener una clase que se llame Persona que pase atributos a la clase principal
+- El programa debe contar con al menos una interfaz que implemente todos los metodos de estado de animo
+- Para el estado de animo "Aburrido" debemos contar un chiste aleatorio, y debemos almacenar al menos 3 chistes en nuestro
+programa. 
