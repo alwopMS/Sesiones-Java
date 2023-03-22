@@ -1,0 +1,2 @@
+Ejercicio 12
+Sacar todos los datos obtenidos en el ejercicio 11 a un TXT
