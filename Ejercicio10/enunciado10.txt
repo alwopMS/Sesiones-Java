@@ -1,0 +1,3 @@
+Ejercicio 10
+
+Realizar una conexion con la API y obtener su información
