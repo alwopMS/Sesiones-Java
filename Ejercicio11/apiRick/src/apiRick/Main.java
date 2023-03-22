@@ -44,6 +44,9 @@ public class Main {
 					informacion.append(sc3.nextLine());
 				}
 				System.out.println(informacion);
+				sc1.close();
+				sc2.close();
+				sc3.close();
 			}
 		} catch (Exception e) {
 			// TODO: handle exception
