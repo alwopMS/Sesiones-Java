@@ -9,6 +9,9 @@ pipeline
             {
                 bat "ipconfig /flushdns"
                 bat "powershell.exe Get-Command"
+
+		    writeFile(file: "salida.txt", text: contenido)
+		    def data = readFile(file: "C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\Crear un archivo\\salida.txt")       
             }
         }
     }
