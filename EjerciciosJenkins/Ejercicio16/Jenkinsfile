@@ -1,0 +1,41 @@
+pipeline
+{
+    agent any 
+    stages
+    {
+        stage("Paso Escribir Archivo"){
+            steps{
+                script{
+                    def cifra1 = 20
+                    def cifra2 = 4
+                    def contenido
+                  
+                    def suma = cifra1 + cifra2
+                    def resta = cifra1 - cifra2
+                    def multiplicacion = cifra1 * cifra2
+                    
+                    if(cifra2==0){
+                        contenido = "Suma: "+suma+"\nResta: "+resta+"\nMultiplicacion: "+multiplicacion+"\nDivision: No se puede realizar la division si la segunda cifra, siendo el divisor, es 0"
+                        writeFile(file: "C:\\Users\\amunizs\\CursoJava\\EjerciciosJenkins\\Ejercicio16\\salida.txt", text: contenido)
+                    }else{
+                        def division = cifra1/cifra2
+                        contenido = "Suma: "+suma+"\nResta: "+resta+"\nMultiplicacion: "+multiplicacion+"\nDivision: "+division
+                        writeFile(file: "C:\\Users\\amunizs\\CursoJava\\EjerciciosJenkins\\Ejercicio16\\salida.txt", text: contenido)
+                    }
+                    
+                }
+                
+            }
+        }
+      stage("Paso Leer Archivo"){
+        steps{
+          script{
+            def data = readFile(file: "C:\\Users\\amunizs\\CursoJava\\EjerciciosJenkins\\Ejercicio16\\salida.txt")
+            println data
+          }
+        }
+        
+      }
+       
+    }
+}
