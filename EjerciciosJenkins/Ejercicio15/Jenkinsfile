@@ -7,7 +7,7 @@ pipeline
             steps{
                 script{
                     def cifra1 = 20
-                    def cifra2 = 0
+                    def cifra2 = 4
                     def contenido
                     println("Bienvenido a la calculadora Jenkins")
                     println("La primera cifra es: " + cifra1)
@@ -32,6 +32,8 @@ pipeline
                     }else{
                         def division = cifra1/cifra2
                         println("El resultado de la division: "+ division)
+                        contenido = "Suma: "+suma+"\nResta: "+resta+"\nMultiplicacion: "+multiplicacion+"\nDivision: "+division
+                        writeFile(file: "C:\\Users\\amunizs\\CursoJava\\EjerciciosJenkins\\Ejercicio15\\salida.txt", text: contenido)
                     }
                     
                 }
