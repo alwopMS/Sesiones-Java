@@ -1,0 +1,9 @@
+EJERCICIO 15
+Crear un pipeline que genere un archivo de salida con la información de la calculadora (los calculos ya hechos)
+Esto se debe hacer a trave de Github, y se debe integrar Github con Jenkins. Jenkins debe ir al repositorio de Github
+Encontrar el archivo correspondiente con el codigo y ejecutarlo. 
+ENTREGABLES
+- Captura de pantalla de la consola de Jenkins
+- TXT de Salida
+- Codigo en Jenkins
+Todos estos entregables tienen que estar en la carpeta correspondiente del ejercicio en el repositorio de Github. 

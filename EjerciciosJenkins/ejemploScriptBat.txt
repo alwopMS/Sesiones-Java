@@ -1,0 +1,15 @@
+pipeline
+{
+    agent any
+    stages
+    {
+        stage('Ejemplo de BATCH')
+        {
+            steps
+            {
+                bat "ipconfig /flushdns"
+                bat "powershell.exe Get-Command"
+            }
+        }
+    }
+}
