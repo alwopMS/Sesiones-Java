@@ -7,7 +7,7 @@ pipeline
             steps{
                 script{
                     def cifra1 = 20
-                    def cifra2 = 4
+                    def cifra2 = 0
                     def contenido
                     println("Bienvenido a la calculadora Jenkins")
                     println("La primera cifra es: " + cifra1)
@@ -27,6 +27,8 @@ pipeline
                     if(cifra2==0){
                         println("No se puede realizar la division si la segunda cifra, siendo el divisor, es 0")
                         contenido = "Suma: "+suma+"\nResta: "+resta+"\nMultiplicacion: "+multiplicacion+"\nDivision: No se puede realizar la division si la segunda cifra, siendo el divisor, es 0"
+                        writeFile(file: "C:\\Users\\amunizs\\CursoJava\\EjerciciosJenkins\\Ejercicio15\\salida.txt", text: contenido)
+                    
                     }else{
                         def division = cifra1/cifra2
                         println("El resultado de la division: "+ division)
