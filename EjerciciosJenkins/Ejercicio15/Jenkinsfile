@@ -1,0 +1,40 @@
+pipeline
+{
+    agent any 
+    stages
+    {
+        stage("Paso Calculadora"){
+            steps{
+                script{
+                    def cifra1 = 20
+                    def cifra2 = 4
+                    
+                    println("Bienvenido a la calculadora Jenkins")
+                    println("La primera cifra es: " + cifra1)
+                    println("La segunda cifra es: " + cifra2)
+                    println("------------------------------------")
+                    println("Operaciones a realizar:")
+                    println("Suma")
+                    def suma = cifra1 + cifra2
+                    println("El resultado de la suma: "+ suma)
+                    println("Resta")
+                    def resta = cifra1 - cifra2
+                    println("El resultado de la resta: "+ resta)
+                    println("Multiplicacion")
+                    def multiplicacion = cifra1 * cifra2
+                    println("El resultado de la multiplicacion: "+ multiplicacion)
+                    println("Division")
+                    if(cifra2==0){
+                        println("No se puede realizar la division si la segunda cifra, siendo el divisor, es 0")
+                    }else{
+                        def division = cifra1/cifra2
+                        println("El resultado de la division: "+ division)
+                    }
+                    
+                }
+                
+            }
+        }
+       
+    }
+}
