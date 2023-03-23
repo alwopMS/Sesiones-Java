@@ -1,0 +1,4 @@
+Suma: 24
+Resta: 16
+Multiplicacion: 80
+Division: 5
