@@ -1,0 +1,2 @@
+EJERCICIO 17:
+Diseñe un diagrama de entidad-relación que grafique su realidad actual. 
