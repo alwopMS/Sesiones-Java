@@ -1,0 +1,9 @@
+Nombre	Fecha de Nacimiento	Edad	Fecha de Registro	Ultima fecha login	Status	Segmento	Antiguedad	Cantidad de Compras	Pais
+Alejandro	06/04/1997	25	11/11/2021	01/01/2022	Activo	Estandar User	1	4	ESPAÑA
+Daniel	05/05/2003	19	10/10/2021	10/10/2021	Activo	Estandar User	1	1	ESPAÑA
+Carlos	05/05/1999	23	10/10/2020	10/10/2021	Activo	Estandar User	2	5	ESPAÑA
+Adrian	06/06/1998	24	11/11/2021	12/12/2021	Activo	Estandar User	1	4	ESPAÑA
+Alba	04/02/1994	29	12/09/2022	16/09/2022	Activo	Affiliate	0	10	ESPAÑA
+Ivan	06/06/1998	24	11/11/2021	12/12/2021	Activo	Estandar User	1	3	ESPAÑA
+Alvaro	05/03/1996	27	12/10/2020	10/05/2021	Activo	Estandar User	2	5	ESPAÑA
+Gustavo	04/06/1991	31	16/09/2022	16/09/2022	Activo	Affiliate	0	10	ARGENTINA
