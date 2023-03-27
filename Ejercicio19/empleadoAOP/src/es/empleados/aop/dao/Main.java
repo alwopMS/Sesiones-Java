@@ -13,7 +13,7 @@ public class Main implements EscribirInterface{
 	public static void main (String [] args)
 	{
 		AnnotationConfigApplicationContext contexto = new AnnotationConfigApplicationContext(Configuracion.class);
-		CerrarPrograma cierre = contexto.getBean("cierre", CerrarPrograma.class);		
+		CerrarPrograma cierre = contexto.getBean(CerrarPrograma.class);		
 		
 		cierre.cierraPrograma();
 		Main m = new Main();

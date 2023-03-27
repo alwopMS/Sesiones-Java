@@ -1,0 +1,2 @@
+Empleado [nombre=Pablo, apellido=Carbajo, edad=24]
+Empleado [nombre=Luis, apellido=Castelo, edad=30]
