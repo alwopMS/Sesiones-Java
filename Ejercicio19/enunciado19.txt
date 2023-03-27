@@ -1,0 +1,11 @@
+EJERCICIO 17
+Desarrollar un programa que informe lo siguiente de 2 empleados:
+- Nombre
+- Apellido
+- Edad
+Generar una interfaz que implemente el metodo generaTxt()
+Antes de que se implemente el metodo cierraPrograma(), utilizar el Advice BEFORE que muestre por consola el siguiente mensaje:
+"Se esta generando un fichero"
+El metodo cierraPrograma() debe mandar un msj por consola que diga "Se esta cerrando el programa".
+Un programita que genere 2 empleados con la información, que luego genere un TXt de salida y un msj de salida de cierre de programa,
+antes de dicho mensaje de salida de cierre de programa, implementar AOP.
