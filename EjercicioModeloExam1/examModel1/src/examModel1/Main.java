@@ -9,11 +9,10 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.HashSet;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 
-import javax.swing.plaf.synth.SynthOptionPaneUI;
+
 
 import productos.Camisa;
 import productos.Pantalon;
@@ -31,7 +30,7 @@ public class Main implements CalculosTotales{
 			File doc = new File("C:\\Users\\amunizs\\CursoJava\\EjercicioModeloExam1\\info_Productos.txt");
 			BufferedReader obj = new BufferedReader(new FileReader(doc));
 			String linea;
-			int i=0;
+			
 			while ((linea = obj.readLine()) != null) {
 				stringProductos.add(linea);
 			}
