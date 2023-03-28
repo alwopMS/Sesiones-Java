@@ -1,0 +1,16 @@
+EJERCICIO MODELO DE EXAMEN NUMERO 2
+Nos contrataron de la empresa Sancor que se encarga de la creación de alimentos basados en la agricultura, necesitan
+recomendaciones de cuando poder iniciar con los trabajos de sembrado, para esto necesitan conocer las condiciones climaticas del día.
+Tiene dos plantas de producción situadas en las siguientes ciudades
+- Madrid
+- Berlin
+Para la ciudad de Madrid, la producción se realiza si la temperatura actual es menor a 15°
+Si la temperatura es mayor o igual a 15° no se realizan tareas de sembrado, solo tareas de producción.
+Para la ciudad de Berlin, la producción se realiza si la temperatura actual es mayor o igual a 20°
+Si la temperatura es menor, se realizan tareas de mantenimiento. 
+Utilizar algun servicio de API Rest que nos provea la información diaria del clima para estas dos localidades, y en base a ella
+informar la temperatura actual en dichas ciudades y la recomendación acorde al caso que aplique.
+
+El txt de salida se debe llamar "recomendacion_diaria.txt"
+
+API: https://open-meteo.com/en/docs
