@@ -1,0 +1,5 @@
+Ramera [nombre=Remera, temporada=Verano, precioUnitario=5, cantidadVendida=100, fechaUltimaVenta=2023-03-20, numDiasUltimaVenta=8, precioUnitarioIva=6.0, precioTotalIva=600.0, promedio=1]]
+Camisa [nombre=Camisa, marca=Blanca, precioUnitario=15, cantidadVendida=50, fechaUltimaVenta=2023-03-01, numDiasUltimaVenta=27, precioUnitarioIva=18.0, precioTotalIva=900.0, promedio=3]]
+Vestido [nombre=Vestido, tipo=Noche, precioUnitario=25, cantidadVendida=20, fechaUltimaVenta=2023-01-01, numDiasUltimaVenta=27, precioUnitarioIva=30.0, precioTotalIva=600.0, promedio=9]]
+Pantalon [nombre=Pantalon, tipo=Vaquero, precioUnitario=20, cantidadVendida=10, fechaUltimaVenta=2023-02-01, numDiasUltimaVenta=27, precioUnitarioIva=24.0, precioTotalIva=240.0, promedio=18]]
+Sweater [nombre=Sweater, lana=Oveja, precioUnitario=15, cantidadVendida=5, fechaUltimaVenta=2023-03-25, numDiasUltimaVenta=3, precioUnitarioIva=18.0, precioTotalIva=90.0, promedio=37]]
