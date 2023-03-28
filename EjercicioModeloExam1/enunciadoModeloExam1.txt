@@ -1,0 +1,14 @@
+EJERCICIO MODELO DE EXAMEN NUMERO 1
+Se te solicita desarrollar una aplicación en Java que permita gestionar la información de una tienda en línea. Para ello, se deberá implementar una serie de funcionalidades que permitan crear, leer, actualizar y eliminar datos de los productos disponibles en la tienda.
+En base al siguiente stock se debera generar un programa que calcule los siguientes indicadores:
+- Precio final (Precio unitario * IVA 21%)
+- Promedio de venta por producto
+- Precio final por unidad
+- Cantidad de ventas
+- Cantidad de dias desde la ultima venta
+
+El programa debe contener la siguiente estructura:
+- Interfaces
+- Clases (Debe haber una clase por producto) y herencia
+- Creación de fichero de salida con el formato de fecha
+- Uso de colecciones (Lista o Set)
