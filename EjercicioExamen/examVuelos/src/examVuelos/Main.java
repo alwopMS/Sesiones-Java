@@ -68,9 +68,9 @@ public class Main implements CalculosTotalesInterface{
 			FileWriter fw = new FileWriter(archivo);
 			BufferedWriter bw = new BufferedWriter(fw);
 			DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("dd/MM/YYYY");
-			String contenidoCompleto = "NOMBRE_VUELO\tCANT_PASAJEROS\tTIPO_PASAJE\tVALOR_UNITARIO\tFECHA_VUELO\tVALOR_FINAL\tDIAS_DIFERENCIA\tSEGEMENTO\n",contenidoparcial;
+			String contenidoCompleto = "NOMBRE_AEROLINEA\tNOMBRE_VUELO\tCANT_PASAJEROS\tTIPO_PASAJE\tVALOR_UNITARIO\tFECHA_VUELO\tVALOR_FINAL\tDIAS_DIFERENCIA\tSEGEMENTO\n",contenidoparcial;
 			for (Vuelo vuelo : listaVuelos) {
-				contenidoparcial=vuelo.getNombre()+"\t"+vuelo.getCantidaPasajeros()+"\t"+vuelo.getTipoPasaje()+"\t"+vuelo.getValorUnitarioPasaje()+"\t"+
+				contenidoparcial=vuelo.getNombreAerolinea()+"\t"+vuelo.getNombreVuelo()+"\t"+vuelo.getCantidaPasajeros()+"\t"+vuelo.getTipoPasaje()+"\t"+vuelo.getValorUnitarioPasaje()+"\t"+
 						vuelo.getFechaVuelo().format(dateTimeFormatter)+"\t"+vuelo.getValorFinalVuelo()+"\t"+vuelo.getDiasDiferencia()+"\t"+vuelo.getSegmento()+"\n";
 			
 				contenidoCompleto+=contenidoparcial;

@@ -1,18 +1,22 @@
 package examVuelos;
 
 public class Aerolinea {
-	private String nombre;
+	private String nombreAerolinea;
 	
-	public Aerolinea(String nombre) {
-		this.setNombre(nombre);
+	
+	public Aerolinea(String nombreAerolinea) {
+		super();
+		this.nombreAerolinea = nombreAerolinea;
 	}
 
-	public String getNombre() {
-		return nombre;
+	public String getNombreAerolinea() {
+		return nombreAerolinea;
 	}
 
-	public void setNombre(String nombre) {
-		this.nombre = nombre;
+	public void setNombreAerolinea(String nombreAerolinea) {
+		this.nombreAerolinea = nombreAerolinea;
 	}
+	
+	
 	
 }

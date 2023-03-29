@@ -14,9 +14,9 @@ public class Vuelo extends Aerolinea implements CalculosVuelosInterface{
 	private int diasDiferencia;
 	private String segmento;
 	
-	public Vuelo(String nombre, String nombreVuelo, int cantidaPasajeros, String tipoPasaje, int valorUnitarioPasaje,
+	public Vuelo(String nombreAerolinea, String nombreVuelo, int cantidaPasajeros, String tipoPasaje, int valorUnitarioPasaje,
 			LocalDate fechaVuelo) {
-		super(nombre);
+		super(nombreAerolinea);
 		this.nombreVuelo = nombreVuelo;
 		this.cantidaPasajeros = cantidaPasajeros;
 		this.tipoPasaje = tipoPasaje;
