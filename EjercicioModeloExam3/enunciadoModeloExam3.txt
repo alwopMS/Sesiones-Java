@@ -1,0 +1,7 @@
+EJERCICIO 3 MODELO DE EXAMEN
+https://www.boxofficemojo.com/chart/ww_top_lifetime_gross/?area=XWW&ref_=bo_cso_ac
+En base al siguiente archivo plano armar un archivo de salida que informe lo siguiente:
+-Agrupar por año y mostrar la plata recaudada
+-TOP 3 de peliculas con mayor recaudación
+-Identificar el año que mas plata recaudo
+-Lista ordenada de peliculas alfabeticamente
